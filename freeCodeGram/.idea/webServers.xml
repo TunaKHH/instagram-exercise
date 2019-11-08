@@ -10,6 +10,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="3129b76e-b7de-4bf4-be87-1eef0e77fd31" name="ftp.findthecashnow.com" url="http://ftp.findthecashnow.com">
+        <fileTransfer host="ftp.findthecashnow.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>

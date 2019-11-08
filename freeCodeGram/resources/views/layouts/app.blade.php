@@ -25,7 +25,7 @@
             <div class="container">
                 <a class="navbar-brand d-flex" href="{{ url('/') }}">
                     {{-- {{ config('app.name', 'Laravel') }} --}}
-                    <div><img src="./svg/freeCodeCampLogo.svg" style="height: 20px; border-right: 1px solid #333;" class="pr-3"></div>
+                    <div><img src="/svg/freeCodeCampLogo.svg" style="height: 20px; border-right: 1px solid #333;" class="pr-3"></div>
                     <div class="pl-3 pt-1">freeCodeGram</div>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
